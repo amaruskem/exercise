@@ -1,2 +1,47 @@
-git commit -m "Premier commit"
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabinet de Sandrine Coupart</title>
+</head>
+<body>
+    <h1>Bienvenue sur le site du cabinet de Sandrine Coupart, diététicienne-nutritionniste</h1>
+    
+    <!-- Section pour afficher les recettes -->
+    <h2>Recettes santé</h2>
+    <div>
+        <h3>Titre de la recette</h3>
+        <p>Description de la recette</p>
+        <p>Temps de préparation : 30 minutes</p>
+        <p>Temps de repos : 1 heure</p>
+        <p>Temps de cuisson : 45 minutes</p>
+        <ul>
+            <li>Ingrédient 1</li>
+            <li>Ingrédient 2</li>
+            <!-- Ajoutez les autres ingrédients -->
+        </ul>
+        <ol>
+            <li>Étape 1</li>
+            <li>Étape 2</li>
+            <!-- Ajoutez les autres étapes -->
+        </ol>
+        <p>Allergènes possibles : Gluten, Lait</p>
+        <p>Régime : Végétarien, Sans lactose</p>
+    </div>
+    
+    <!-- Section d'authentification -->
+    <h2>Espace patient</h2>
+    <form action="/connexion" method="post">
+        <label for="nom_utilisateur">Nom d'utilisateur :</label>
+        <input type="text" id="nom_utilisateur" name="nom_utilisateur" required>
+        
+        <label for="mot_de_passe">Mot de passe :</label>
+        <input type="password" id="mot_de_passe" name="mot_de_passe" required>
+        
+        <button type="submit">Se connecter</button>
+    </form>
+</body>
+</html>
+
 
